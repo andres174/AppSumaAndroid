@@ -28,4 +28,10 @@ public class MainActivity extends AppCompatActivity {
         res = Integer.parseInt(this.num1.getText().toString()) + Integer.parseInt(this.num2.getText().toString());
         this.resultado.setText("El resultado es: " + res);
     }
+
+    public void Restar(View v){
+        int res;
+        res = Integer.parseInt(this.num1.getText().toString()) - Integer.parseInt(this.num2.getText().toString());
+        this.resultado.setText("El resultado es: " + res);
+    }
 }
